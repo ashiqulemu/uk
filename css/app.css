@@ -196,7 +196,7 @@ body {
 
 .recent_services {
   padding: 50px 0;
-  background-image: linear-gradient(to right, rgba(4, 4, 4, 0.3803921569), rgba(25, 29, 76, 0.9882352941)), url(../images/slider/1.jpg);
+  background-image: url(../images/slider/2.jpg);
   background-size: 100% 100%;
 }
 
