@@ -23,6 +23,18 @@ a {
     background: $secondary ;
 }
 
+.bg-primary {
+    background: $primary ;
+    background: $secondary;
+    border-color: $primary;
+    color: $primary;
+
+    &:hover {
+        background: $primary;
+        color: $secondary;
+    }
+}
+
 
 .footer-bg {
     background: url('../images/footer-bg.png');
@@ -123,7 +135,7 @@ html {
                 }
 
                 &:hover {
-                    color: $white  !important;
+                    color: $white !important;
                 }
             }
         }
@@ -197,6 +209,7 @@ body {
 
 .siteHeader {
     background: $secondary;
+
     .navbar-brand {
         img {
             @media(max-width:375px) {
@@ -246,9 +259,9 @@ body {
     }
 }
 
-.recent_services{
+.recent_services {
     padding: 50px 0;
-    background-image:  url(../images/slider/2.jpg);
+    background-image: url(../images/slider/2.jpg);
     background-size: 100% 100%;
 }
 
@@ -458,20 +471,25 @@ body {
 
 .governance {
     .row {
-        img{
+        img {
             padding: 10px;
-        };
+        }
+
+        ;
+
         &:nth-child(even) {
             background-color: #F1F1F1;
         }
-        @media(max-width:768px){
+
+        @media(max-width:768px) {
             text-align: center;
-             
+
         }
-        p{
+
+        p {
             margin: 0;
-            
-            @media(max-width:768px){
+
+            @media(max-width:768px) {
                 text-align: center;
                 width: 100%;
             }
@@ -1349,11 +1367,12 @@ footer {
 
 
 
-.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
     filter: none;
 }
 
-.carousel-caption{
+.carousel-caption {
     top: 40%;
     font-size: x-large;
 }

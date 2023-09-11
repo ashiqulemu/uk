@@ -15,6 +15,17 @@ a {
   background: #07157C !important;
 }
 
+.bg-primary {
+  background: #FFD653 !important;
+  background: #07157C !important;
+  border-color: #FFD653 !important;
+  color: #FFD653 !important;
+}
+.bg-primary:hover {
+  background: #FFD653 !important;
+  color: #07157C !important;
+}
+
 .footer-bg {
   background: url("../images/footer-bg.png");
   background-size: 100% 100%;
@@ -1051,7 +1062,8 @@ footer .nav-item a:hover {
   transform: translateY(-10px);
 }
 
-.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
   filter: none;
 }
 
